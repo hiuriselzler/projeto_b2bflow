@@ -34,9 +34,14 @@ Testes unitários :
 
 
 Melhorias futuras
+
   Alembic – versionamento de migrações do banco de dados
+  
   Supabase Vault – criptografia de colunas sensíveis (ex: telefone)
+  
   Criptografia de dados via AES (Fernet) a nível de aplicação
+  
   Agendamento automático de envios (CRON / APScheduler)
+  
   Integração com outras APIs de WhatsApp
 
