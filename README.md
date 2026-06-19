@@ -29,6 +29,7 @@ Configure as variáveis de ambiente criando um arquivo .env
   
 Execute o pre-commit:
  - poetry run pre-commit install
+
 Testes unitários :
  - poetry run pytest tests/ -v
 
