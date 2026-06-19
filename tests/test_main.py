@@ -23,5 +23,5 @@ def test_deve_enviar_mensagem_para_cada_contato(mock_post, mock_supabase):
     primeira_chamada = mock_post.call_args_list[0]
     assert primeira_chamada[0][0].startswith("https://api.z-api.io/instances/")
     payload = primeira_chamada[1]["json"]
-    assert payload["message"] == "Olá, Maria tudo bem com você?"
+    assert payload["message"] == "Olá Maria, tudo bem com você?"
     assert payload["phone"] == "5511988888888"

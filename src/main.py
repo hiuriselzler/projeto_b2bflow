@@ -39,7 +39,7 @@ def _enviar_mensagem_individual(telefone: str, nome: str):
         )
 
     url = f"https://api.z-api.io/instances/{instance_id}/token/{token}/send-messages"
-    mensagem = f"Olá, {nome} tudo bem com você?"
+    mensagem = f"Olá {nome}, tudo bem com você?"
     payload = {"phone": telefone, "message": mensagem}
     headers = {"Content-Type": "application/json"}
 
