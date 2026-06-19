@@ -18,6 +18,7 @@ Stack
 Clone o repositório e instale as dependências:
    poetry install
 Configure as variáveis de ambiente criando um arquivo .env
+
   SUPABASE_URL=
   
   SUPABASE_KEY=
@@ -25,6 +26,7 @@ Configure as variáveis de ambiente criando um arquivo .env
   ZAPI_INSTANCE_ID=
   
   ZAPI_TOKEN=
+  
 Execute o pre-commit:
   poetry run pre-commit install
 Testes unitários :
