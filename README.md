@@ -19,29 +19,29 @@ Clone o repositório e instale as dependências:
    poetry install
 Configure as variáveis de ambiente criando um arquivo .env
 
-  SUPABASE_URL=
+ - SUPABASE_URL=
   
-  SUPABASE_KEY=
+ - SUPABASE_KEY=
   
-  ZAPI_INSTANCE_ID=
+ - ZAPI_INSTANCE_ID=
   
-  ZAPI_TOKEN=
+ - ZAPI_TOKEN=
   
 Execute o pre-commit:
-  poetry run pre-commit install
+ - poetry run pre-commit install
 Testes unitários :
-  poetry run pytest tests/ -v
+ - poetry run pytest tests/ -v
 
 
 Melhorias futuras
 
-  Alembic – versionamento de migrações do banco de dados
+ - Alembic – versionamento de migrações do banco de dados
   
-  Supabase Vault – criptografia de colunas sensíveis (ex: telefone)
+ - Supabase Vault – criptografia de colunas sensíveis (ex: telefone)
   
-  Criptografia de dados via AES (Fernet) a nível de aplicação
+ - Criptografia de dados via AES (Fernet) a nível de aplicação
   
-  Agendamento automático de envios (CRON / APScheduler)
+ - Agendamento automático de envios (CRON / APScheduler)
   
-  Integração com outras APIs de WhatsApp
+ - Integração com outras APIs de WhatsApp
 
